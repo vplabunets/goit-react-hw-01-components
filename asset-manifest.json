@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vplabunets.github.io/goit-react-hw-01-components.git/static/css/main.942af0d7.css",
-    "main.js": "/vplabunets.github.io/goit-react-hw-01-components.git/static/js/main.42e4bf6b.js",
+    "main.js": "/vplabunets.github.io/goit-react-hw-01-components.git/static/js/main.27660ca4.js",
     "index.html": "/vplabunets.github.io/goit-react-hw-01-components.git/index.html",
     "main.942af0d7.css.map": "/vplabunets.github.io/goit-react-hw-01-components.git/static/css/main.942af0d7.css.map",
-    "main.42e4bf6b.js.map": "/vplabunets.github.io/goit-react-hw-01-components.git/static/js/main.42e4bf6b.js.map"
+    "main.27660ca4.js.map": "/vplabunets.github.io/goit-react-hw-01-components.git/static/js/main.27660ca4.js.map"
   },
   "entrypoints": [
     "static/css/main.942af0d7.css",
-    "static/js/main.42e4bf6b.js"
+    "static/js/main.27660ca4.js"
   ]
 }
