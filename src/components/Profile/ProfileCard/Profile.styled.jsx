@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ProfileCard = styled.div`
+export const ProfileCardWrap = styled.div`
   display: flex;
   flex-direction: column;
   width: 200px;

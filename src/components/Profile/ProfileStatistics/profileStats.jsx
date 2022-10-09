@@ -1,4 +1,4 @@
-// import PropTypes from './prop-types';
+import PropTypes from 'prop-types';
 import {
   StatsList,
   StatsItem,
@@ -25,10 +25,10 @@ export const Stats = ({ stats }) => {
   );
 };
 
-// Stats.propTypes = {
-//   stats: PropTypes.shape({
-//     followers: PropTypes.number.isRequired,
-//     views: PropTypes.number.isRequired,
-//     likes: PropTypes.number.isRequired,
-//   }),
-// };
+Stats.propTypes = {
+  stats: PropTypes.shape({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }),
+};

@@ -8,6 +8,7 @@ const xxx = function rcolor() {
 
 export const StatisticsSection = styled.section`
   margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,14 +19,17 @@ export const StatisticsList = styled.ul`
 
 export const StatisticsItem = styled.li`
   display: flex;
+  border: 0.1px inset gray;
   background-color: ${xxx};
   flex-direction: column;
   width: calc(200px / 5);
 `;
 export const StatisticsTitle = styled.h2`
+  width: 200px;
+  border: 0.1px inset gray;
   color: black;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
   text-transform: uppercase;
   text-align: center;
 `;

@@ -1,15 +1,16 @@
 import styled from 'styled-components';
-export const Description1 = styled.div`
-  padding: 30px;
+export const Card = styled.div`
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f7f7f7;
+  background-color: #e0e0e0;
 `;
 export const AvatarPicture = styled.img`
-  width: 50px;
-  height: 50px;
+  border: 0.1px inset gray;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
 `;
 export const Name = styled.p`
