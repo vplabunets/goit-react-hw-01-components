@@ -6,7 +6,6 @@ import {
   StatsText,
 } from './ProfileStats.styled';
 export const Stats = ({ stats }) => {
-  console.log(Stats);
   return (
     <StatsList>
       <StatsItem>

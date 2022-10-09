@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import { FriendListItem } from '../FriendsItem/FriendsItem';
 import { FrList, FrWrap } from './Friends.styled';
 export const FriendsList = ({ friends }) => {
-  console.log(friends);
   return (
     <FrWrap>
       <FrList>
