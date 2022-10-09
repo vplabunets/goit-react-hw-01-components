@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import {
   TransactionBodyLine,
   TransactionBodyСolumn,
@@ -11,4 +12,11 @@ export const TransactionItem = ({ transactions }) => {
       <TransactionBodyСolumn>{currency}</TransactionBodyСolumn>
     </TransactionBodyLine>
   ));
+};
+
+TransactionItem.propTypes = {
+  id: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  amount: PropTypes.string.isRequired,
+  currency: PropTypes.string.isRequired,
 };
