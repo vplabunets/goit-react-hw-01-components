@@ -9,8 +9,8 @@ export const FriendListItem = ({ friends }) => {
   return friends.map(({ avatar, id, isOnline, name }) => (
     <FriendItem key={id}>
       <FriendStatus status={isOnline} />
-      <FriendAvatar class="avatar" src={avatar} alt="User avatar" width="48" />
-      <FriendName class="name">{name}</FriendName>
+      <FriendAvatar src={avatar} alt="User avatar" width="48" />
+      <FriendName>{name}</FriendName>
     </FriendItem>
   ));
 };

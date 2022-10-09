@@ -4,6 +4,7 @@ import { Stats } from '../ProfileStatistics/profileStats';
 import { ProfileCardWrap } from './Profile.styled';
 export const Profile = ({ user }) => {
   const { username, tag, avatar, location, stats } = user;
+
   return (
     <ProfileCardWrap>
       <Description
@@ -26,3 +27,4 @@ Profile.propTypes = {
     stats: PropTypes.object.isRequired,
   }),
 };
+//test commit
