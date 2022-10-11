@@ -27,4 +27,3 @@ Profile.propTypes = {
     stats: PropTypes.object.isRequired,
   }),
 };
-//test commit

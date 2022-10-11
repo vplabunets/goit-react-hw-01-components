@@ -8,7 +8,6 @@ export const StatsList = styled.ul`
 export const StatsItem = styled.li`
   display: flex;
   flex-direction: column;
-  /* flex-grow: 1; */
   text-align: center;
   border: 0.1px inset gray;
   width: 33%;

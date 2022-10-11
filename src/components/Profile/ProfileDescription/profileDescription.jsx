@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import { AvatarPicture, Card, Name, Info } from './ProfileDescription.styled';
 export const Description = ({ username, tag, avatar, location }) => {
-  // console.log(user);
   return (
     <Card>
       <AvatarPicture src={avatar} alt={username} />
